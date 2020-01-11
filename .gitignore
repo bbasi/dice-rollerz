@@ -1,0 +1,8 @@
+*.DS_Store
+*.sln
+*.csproj
+dice-rollerz/.vs
+dice-rollerz/Library
+dice-rollerz/Logs
+dice-rollerz/Temp
+dice-rollerz/obj
