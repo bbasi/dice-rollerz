@@ -2,7 +2,9 @@
 **by Balraj Basi**
 
 *Come test your luck in Dice Rollerz. How many rolls will you go before hitting those dreaded doubles?*
-<img src="assets/gameplay.gif" alt="Roll 4/4" width="400px"/>
+<img src="assets/gameplay.gif" alt="Gameplay" width="400px"/>
+
+<img src="assets/ui.png" alt="UI" width="650px"/>
 
 <br />
 <br />
@@ -17,7 +19,7 @@
 <img src="assets/scene_auto_load.png" alt="Scene Autoload" width="400px"/>
 
 - Toggling the **debug** checkbox in game will result in the fifth roll afterwards having a result of both die landing on 1.
-<img src="assets/debug.png" alt="Scene Autoload"/>
+<img src="assets/debug.png" alt="Debug"/>
 
 <br />
 <br />
@@ -32,7 +34,7 @@ Over the course of a roll, 3 different forces are applied to each die.
 2. Collision 1 - Table
 3. Collision 2 - Wall | Other Die
 
-<img src="assets/dice_real.gif" alt="Roll 4/4" width="600px"/>
+<img src="assets/dice_real.gif" alt="Dice - Real" width="600px"/>
 
 <br />
 
@@ -41,7 +43,7 @@ After the second collision, each die waits until its velocity reaches zero. \
 At this point, the die determines which side is up by 
 iterating child transforms ( which have been placed accordingly ) and performing a y position test to see which transform is the highest.
 
-<img src="assets/dice_overview.png" alt="Roll 4/4" width="450px"/>
+<img src="assets/dice_overview.png" alt="Dice - Overview" width="450px"/>
 
 <br />
 
@@ -49,7 +51,7 @@ iterating child transforms ( which have been placed accordingly ) and performing
 After the second collision, rigged die have their angular velocity set to zero, resulting in no rotation. \
 Their rotation is then tweened ensuring that the 1 side is facing up.
 
-<img src="assets/dice_rigged.gif" alt="Roll 4/4" width="600px"/>
+<img src="assets/dice_rigged.gif" alt="Dice - Rigged" width="600px"/>
 
 <br />
 <br />
