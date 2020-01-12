@@ -8,10 +8,10 @@ namespace bb
   {
     public static glbl _;
     public core.GameState GameState { get; private set;}
-    public core.UI        UI        { get; private set;}
     public core.Game      Game      { get; private set;}
-    public core.IO        IO        { get; private set;}
     public core.Camera_   Camera_   { get; private set;}
+    public core.UI        UI        { get; private set;}
+    public core.IO        IO        { get; private set;}
     public core.SFX       SFX       { get; private set;}
 
     void Awake()
